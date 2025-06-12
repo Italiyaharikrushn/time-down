@@ -55,6 +55,7 @@ function CountDown() {
         setIsRunning(false);
         setTimeLeft(0);
         setTimer("00:00:00");
+        setInput('');
     }
 
     return (
