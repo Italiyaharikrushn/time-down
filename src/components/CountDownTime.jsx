@@ -63,7 +63,7 @@ function CountDown() {
     }
 
     return (
-        <div className="center">
+        <div className="background-image">
             <h1>Time-Down Count</h1>
             <div>
                 <input

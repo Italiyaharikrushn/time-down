@@ -1,16 +1,23 @@
-.center {
-    text-align: center;
-    padding: 10px;
+.background-image{
+    background-image: url(/src/assets/pexels-pixabay-39396.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.center .input, button{
+.background-image .input, button{
     border-radius: 8px;
-    border: 2px solid rgb(219, 216, 219);
+    border: 2px solid rgb(59, 50, 59);
     margin: 0 5px 0 5px;
     padding: 5px;
 }
 
-.center button {
+.background-image button {
     background-color: rgb(242, 246, 250);
     width: 60px;
 }
