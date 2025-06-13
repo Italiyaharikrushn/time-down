@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import './CountDownTime.css';
 
 function CountDown() {
     const [timer, setTimer] = useState("00:00:00");
@@ -59,7 +60,7 @@ function CountDown() {
     }
 
     return (
-        <div>
+        <div className="center">
             <h1>Time-Down Count</h1>
             <div>
                 <input
@@ -67,6 +68,7 @@ function CountDown() {
                     value={input}
                     onChange={handleInput}
                     placeholder="Enter minutes"
+                    className="input"
                 />
                 <button onClick={startTimer}>Start</button>
                 <button onClick={puaseTimer}>Puase</button>

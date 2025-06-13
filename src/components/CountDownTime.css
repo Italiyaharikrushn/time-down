@@ -1,0 +1,15 @@
+.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.center .input, button{
+    border-radius: 8px;
+    border: 2px solid rgb(219, 216, 219);
+    margin: 0 5px 0 5px;
+    padding: 5px;
+}
+
+.center button {
+    background-color: rgb(242, 246, 250);
+}
