@@ -39,8 +39,11 @@ function CountDown() {
     const startTimer = () => {
         if (!isRunning) {
             if (timeLeft === 0) {
-                const totalSeconds = parseInt(input) * 60;
-                setTimeLeft(totalSeconds);
+                const totalSeconds = parseInt(input);
+                if(isNaN(totalSeconds) || totalSeconds<=0){
+                    return;
+                }
+                setTimeLeft(totalSeconds * 60);
             }
             setIsRunning(true);
         }
